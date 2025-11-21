@@ -3,9 +3,21 @@
     <string name="menu_home">Inicio</string>
     <string name="menu_profile">Perfil</string>
     <string name="menu_settings">Ajustes</string>
+    <string name="menu_botonesradio">Botonesradio</string>
+    <string name="menu_calcu_act">CalcuAct</string>
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
     <string name="home_placeholder">Espacio para agregar ejercicios o ejemplos de la sección de inicio.</string>
     <string name="profile_placeholder">Espacio para agregar ejercicios o ejemplos relacionados con el perfil.</string>
     <string name="settings_placeholder">Espacio para agregar ejercicios o ejemplos de la sección de ajustes.</string>
+    <string name="botonesradio_placeholder">Vista de ejemplo para el contenido del módulo de Botonesradio.</string>
+    <string name="calcu_act_placeholder">Vista de ejemplo para el contenido del módulo de CalcuAct.</string>
+    <string name="radio_prompt">Selecciona una opción con los botones de radio:</string>
+    <string name="radio_option_one">Opción 1</string>
+    <string name="radio_option_two">Opción 2</string>
+    <string name="radio_option_three">Opción 3</string>
+    <string name="radio_selection">Has seleccionado: %1$s</string>
+    <string name="calculator_zero">0</string>
+    <string name="calculator_clear">Limpiar</string>
+    <string name="calculator_error">Error</string>
 </resources>

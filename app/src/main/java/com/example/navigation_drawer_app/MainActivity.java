@@ -1,5 +1,6 @@
 package com.example.navigation_drawer_app;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -57,6 +58,14 @@ public class MainActivity extends AppCompatActivity {
             } else if (idElemento == R.id.nav_settings) {
                 fragmento = new SettingsFragment();
                 titulo = getString(R.string.menu_settings);
+            } else if (idElemento == R.id.nav_botonesradio) {
+                startActivity(new Intent(this, BotonesradioActivity.class));
+                cajonDeNavegacion.closeDrawer(GravityCompat.START);
+                return true;
+            } else if (idElemento == R.id.nav_calcu_act) {
+                startActivity(new Intent(this, CalcuActActivity.class));
+                cajonDeNavegacion.closeDrawer(GravityCompat.START);
+                return true;
             } else {
                 fragmento = new HomeFragment();
                 titulo = getString(R.string.menu_home);

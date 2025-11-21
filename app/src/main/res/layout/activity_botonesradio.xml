@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/botonesradio_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/simple_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/menu_botonesradio" />
+
+    <TextView
+        android:id="@+id/seleccion_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/radio_prompt"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+
+    <RadioGroup
+        android:id="@+id/opciones_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_opcion_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_option_one" />
+
+        <RadioButton
+            android:id="@+id/radio_opcion_dos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_option_two" />
+
+        <RadioButton
+            android:id="@+id/radio_opcion_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_option_three" />
+    </RadioGroup>
+</LinearLayout>

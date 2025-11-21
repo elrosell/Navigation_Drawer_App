@@ -9,4 +9,10 @@
     <item
         android:id="@+id/nav_settings"
         android:title="@string/menu_settings" />
+    <item
+        android:id="@+id/nav_botonesradio"
+        android:title="@string/menu_botonesradio" />
+    <item
+        android:id="@+id/nav_calcu_act"
+        android:title="@string/menu_calcu_act" />
 </menu>
